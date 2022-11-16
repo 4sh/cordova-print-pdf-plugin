@@ -42,7 +42,7 @@
              * interface is available and no other native app.
             -->
             <activity android:name="com.sgoldm.plugin.printPDF.CloudPrintDialog"
-                      android:theme="@android:style/Theme.Black.NoTitleBar" />
+                      android:theme="@android:style/Theme.Black.NoTitleBar" android:exported="false" />
         </config-file>
 
         <config-file target="AndroidManifest.xml" parent="/manifest">
